@@ -1,12 +1,12 @@
-package com.rocco.app.service;
+package com.rocco.backend.blueprint;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@NoArgsConstructor
 @Getter
 @Setter
+@NoArgsConstructor
 public class Rocket {
 
 	private Double dryWeight;
@@ -60,8 +60,8 @@ public class Rocket {
 							 Change of velocity \t\t\t\t-\t%s m/s
 							 Thrust F\t\t\t\t\t\t-\t%s N
 							""", dryWeight, wetWeight, timeToBurnFuel, totalPressure, totalTemperature, gasConstant,
-									heatRatio, throatDiameter, throatArea, areaRatio, exitDiameter, exitArea,
-									mDot, temperatureRatio, exitTemperature, pressureRatio, exitPressure, velocity,
-									changeOfVelocity, thrust);
+				heatRatio, throatDiameter, throatArea, areaRatio, exitDiameter, exitArea,
+				mDot, temperatureRatio, exitTemperature, pressureRatio, exitPressure, velocity,
+				changeOfVelocity, thrust);
 	}
 }

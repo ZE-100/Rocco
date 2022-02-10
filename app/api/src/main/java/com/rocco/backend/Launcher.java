@@ -1,4 +1,8 @@
-package com.rocco.app.service;
+package com.rocco.backend;
+
+import com.rocco.backend.blueprint.Rocket;
+import com.rocco.backend.calc.ThrustCalculationService;
+import com.rocco.backend.other.Constants;
 
 public class Launcher {
 
@@ -47,5 +51,6 @@ public class Launcher {
 
 		double changeOfVelocity = tcs.getChangeOfVelocity(velocity);
 
+		System.out.println(rocket.toString());
 	}
 }

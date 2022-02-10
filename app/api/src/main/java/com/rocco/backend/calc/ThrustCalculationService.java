@@ -1,4 +1,4 @@
-package com.rocco.app.service;
+package com.rocco.backend.calc;
 
 import lombok.AllArgsConstructor;
 
