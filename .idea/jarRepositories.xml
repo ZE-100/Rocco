@@ -22,6 +22,11 @@
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="spring-releases" />
+      <option name="name" value="Spring Releases" />
+      <option name="url" value="http://nexus.suisa.ch/content/groups/development" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="suisa-repo-development" />
       <option name="name" value="suisa-repo-development" />
       <option name="url" value="http://nexus.suisa.ch/content/groups/development" />
