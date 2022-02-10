@@ -1,7 +1,7 @@
 # _Rocco_ The com.rocco.app.service.Rocket Simulator 🚀
 Calculates rocket related stuff
 
-![Elmo hating on Rocco](https://github.com/Z-100/Rocco/blob/master/resource/200.gif)
+![Elmo hating on Rocco](https://github.com/Z-100/Rocco/blob/master/other/200.gif)
 
 ## Sources
 [Tsiolkovsky com.rocco.app.service.Rocket Equation](https://en.wikipedia.org/wiki/Tsiolkovsky_rocket_equation) <br />
